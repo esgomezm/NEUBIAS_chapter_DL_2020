@@ -6,10 +6,10 @@ This repository contains all the material for the chapter "Building a Bioimage A
 The proposed workflow makes use of open source software tools ([Keras](https://keras.io/), [DeepImageJ](https://deepimagej.github.io/deepimagej/) and [MorphoLibJ](https://imagej.net/MorphoLibJ)) to segment and analyze the morphology of phase contrast images from the [Cell Tracking Challenge](http://celltrackingchallenge.net/).
 
 ## Worflow steps 
-* **Steps 0 to 3** take place in a Python notebook (click to open the notebook in Google Colab: [![GoogleColab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/esgomezm/NEUBIAS_chapter_DL_2020/blob/master/notebook/U_Net_PhC_C2DL_PSC_segmentation.ipynb)) and are as follows:
-  * **Step 0**: initialize the notebook in Google Colab to make use of a GPU runtime and set-up the correct Keras/Tensorflow versions.
-  * **Step 1**: download, extract and partition the image data into training, validation and test sets.
-  * **Step 2**: define and train a deep learning model for segmentation:
+Steps 0 to 4.1 take place in a Python notebook (click to open the notebook in Google Colab: [![GoogleColab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/esgomezm/NEUBIAS_chapter_DL_2020/blob/master/notebook/U_Net_PhC_C2DL_PSC_segmentation.ipynb)) and are as follows:
+* **Step 0**: initialize the notebook in Google Colab to make use of a GPU runtime and set-up the correct Keras/Tensorflow versions.
+* **Step 1**: download, extract and partition the image data into training, validation and test sets.
+* **Step 2**: define and train a deep learning model for segmentation:
     * **Step 2.1**: prepare images for training.
     * **Step 2.2**: design a convolutional neural network (U-Net-like).
     * **Step 2.3**: define loss function and optimizer.

@@ -19,6 +19,5 @@ Steps 0 to 4.1 take place in a Python notebook (click to open the notebook in Go
 * **Step 3**: evaluate trained model in test set.
 * **Step 4** starts at the end of the notebook and involves importing the train model into DeepImageJ:
   * **Step 4.1**: download the train model from the notebook in Tensorflow format.
-  * **Step 4.2**: [install DeepImageJ in ImageJ/Fiji](https://deepimagej.github.io/deepimagej/download.html).
-  * **Step 4.3**: import model into DeepImageJ using "Create Bundled Model" plugin.
+  * **Step 4.2**: import model into DeepImageJ using "Create Bundled Model" plugin.
 * **Step 5**: apply the trained model to all images in a folder using DeepImageJ from [an ImageJ macro](https://github.com/esgomezm/NEUBIAS_chapter_DL_2020/blob/master/ij-macros/Step-5-process-folder.ijm).
